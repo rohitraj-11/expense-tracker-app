@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should render ExpenseListItem 1`] = `
+exports[`should render ExpenseListItem correctly 1`] = `
 <div>
   <Link
     to="/edit/1"
@@ -10,9 +10,8 @@ exports[`Should render ExpenseListItem 1`] = `
     </h3>
   </Link>
   <p>
-    Rs 
-    195
-    --
+    $1.95
+    -
     January 1st, 1970
   </p>
 </div>

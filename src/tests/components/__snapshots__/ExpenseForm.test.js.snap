@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should render ExpenseForm correctly 1`] = `
+exports[`should render ExpenseForm correctly 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -99,16 +99,14 @@ exports[`Should render ExpenseForm correctly 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button
-      type="submit"
-    >
+    <button>
       Add Expense
     </button>
   </form>
 </div>
 `;
 
-exports[`Should render ExpenseForm with expense data 1`] = `
+exports[`should render ExpenseForm correctly with expense data 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -124,7 +122,7 @@ exports[`Should render ExpenseForm with expense data 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value="109500"
+      value="1095"
     />
     <SingleDatePicker
       anchorDirection="left"
@@ -207,16 +205,14 @@ exports[`Should render ExpenseForm with expense data 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button
-      type="submit"
-    >
+    <button>
       Add Expense
     </button>
   </form>
 </div>
 `;
 
-exports[`Should render error for invalid form submission 1`] = `
+exports[`should render error for invalid form submission 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -315,19 +311,17 @@ exports[`Should render error for invalid form submission 1`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button
-      type="submit"
-    >
+    <button>
       Add Expense
     </button>
   </form>
 </div>
 `;
 
-exports[`Should render error for invalid form submission 2`] = `
+exports[`should render error for invalid form submission 2`] = `
 <div>
   <p>
-    Please provide description and amount
+    Please provide description and amount.
   </p>
   <form
     onSubmit={[Function]}
@@ -426,9 +420,7 @@ exports[`Should render error for invalid form submission 2`] = `
       placeholder="Add a note for your expense (optional)"
       value=""
     />
-    <button
-      type="submit"
-    >
+    <button>
       Add Expense
     </button>
   </form>
